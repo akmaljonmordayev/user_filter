@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: start;
+  row-gap: 20px;
+  padding-top: 60px;
+}
+body {
+  background-color: yellow;
+  padding: 40px 50px;
+}
+
+input {
+  padding: 10px 40px;
+}
+
+button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.all {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.age {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.all > div{
+  width: 230px;
+  font-size: 13px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: inset 0px 0px 10px 2px rgb(128, 114, 114);
+}
+
+
+.age > div{
+  width: 200px;
+  font-size: 13px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: inset 0px 0px 10px 2px rgb(154, 137, 137);
+}
